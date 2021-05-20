@@ -28,8 +28,12 @@ namespace app\core ;
         {
             $this->routes['get'][$path] = $callback;
         }
+        public function post($path,$callback)
+        {
+            $this->routes['post'][$path] = $callback;
+        }
 
-        public function resolve()
+         public function resolve()
         {
 
             $path = $this->request->getPath();
