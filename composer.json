@@ -1,0 +1,16 @@
+{
+    "name": "hp/mvc",
+    "authors": [
+        {
+            "name": "sushilnp",
+            "email": "sushiln398@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {},
+    "description": ""
+}
